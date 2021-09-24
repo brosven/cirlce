@@ -83,5 +83,10 @@ function mouseUp() {
     circle.draw();
     arrY = [];
     arrX = [];
+  } else {
+    const circle = new Circle(xCenterCoords, yCenterCoords, radius);
+    circle.draw();
+    arrY = [];
+    arrX = [];
   }
 }
